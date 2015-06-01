@@ -1,0 +1,2 @@
+# nodefoo
+Talk to AWS
