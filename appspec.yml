@@ -4,6 +4,9 @@ files:
   - source: /
     destination: /home/ec2-user/test
 hooks:
+  ApplicationStop:
+    - location: scripts/stop.sh
+      runas: root
   ApplicationStart:
-    - location: start.sh
+    - location: scripts/start.sh
       runas: root
