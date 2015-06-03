@@ -13,7 +13,7 @@ var server = app.listen(3000, function () {
 
   console.log('Example app listening at http://%s:%s', host, port);
 
-  fs.writeFile('FOO.txt', 'Hello Brave New World! Our enterprise has been a rousing success. Your cows are delicious here at ' + host + ':' + port, function (err) {
+  fs.writeFile('FOO.txt', 'Bacon is delicious everywhere, but especially here at ' + host + ':' + port, function (err) {
     if (err) throw err;
 
   });
