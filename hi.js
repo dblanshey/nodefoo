@@ -3,7 +3,7 @@ var app = express();
 var fs = require('fs');
 
 app.get('/', function (req, res) {
-  res.send('I love free food and free t-shirts and cows! Above all, I love it when things work.\n ');
+  res.send('I love BACON. Bacon bacon bacon bacon bacon bacon. ');
 });
 
 var server = app.listen(3000, function () {
