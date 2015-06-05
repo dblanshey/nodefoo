@@ -4,4 +4,4 @@ files:
   - source: /
     destination: /home/ec2-user/test
     source: index.html
-    destination: /var/www/html/index.html
+    destination: /var/www/html
